@@ -5,9 +5,7 @@ window:
     x: 3
     y: 0
 
-    # decorations: None
-
-  dynamic_title: true
+  decorations: none
 
 font:
   size: 10
@@ -46,7 +44,7 @@ hints:
 
 life_config_reload: true
 
-light_colors: &dark_colors
+colors: &dark_colors
   # Default colors
   primary:
     background: '0x000000'
@@ -106,99 +104,5 @@ colors: &light_colors
     magenta: '0xe793e7'
     cyan:    '0x84cdd7'
     white:   '0x777777'
-
-colors: &old_light_colors
-  # Default colors
-  primary:
-    background: '0xeaeaea'
-    foreground: '0x222222'
-
-  # Cursor colors
-  cursor:
-    text: '0xaaaaaa'
-    cursor: '0x000000'
-
-  # Normal colors
-  normal:
-    black:   '0x111111'
-    red:     '0xca1222'
-    green:   '0xa2c974'
-    yellow:  '0xebc22a'
-    blue:    '0x5290f5'
-    magenta: '0xec51ec'
-    cyan:    '0x39bdd0'
-    white:   '0xdddddd'
-
-  # Bright colors
-  bright:
-    black:   '0x353535'
-    red:     '0xff7783'
-    green:   '0xbfe395'
-    yellow:  '0xebd78c'
-    blue:    '0x84aff2'
-    magenta: '0xee86ee'
-    cyan:    '0x82deeb'
-    white:   '0x777777'
-
-colors: &ocean_light
-  # Default colors
-  primary:
-    background: '0xeff1f5'
-    foreground: '0x4f5b66'
-
-  # Normal colors
-  normal:
-    black:   '0x2b303b'
-    red:     '0xbf616a'
-    green:   '0xa3be8c'
-    yellow:  '0xebcb8b'
-    blue:    '0x8fa1b3'
-    magenta: '0xb48ead'
-    cyan:    '0x96b5b4'
-    white:   '0xc0c5ce'
-
-  # Bright colors
-  bright:
-    black:   '0x65737e'
-    red:     '0xbf616a'
-    green:   '0xa3be8c'
-    yellow:  '0xebcb8b'
-    blue:    '0x8fa1b3'
-    magenta: '0xb48ead'
-    cyan:    '0x96b5b4'
-    white:   '0x6d685f'
-
-colors: &eighties_light
-  # Default colors
-  primary:
-    background: '0xeff1f5'
-    foreground: '0x4f5b66'
-
- # Default colors
-  primary:
-    background: '0xf2f0ec'
-    foreground: '0x515151'
-
-  # Normal colors
-  normal:
-    black:   '0x2d2d2d'
-    red:     '0xf2777a'
-    green:   '0x99cc99'
-    yellow:  '0xffcc66'
-    blue:    '0x6699cc'
-    magenta: '0xcc99cc'
-    cyan:    '0x66cccc'
-    white:   '0xd3d0c8'
-
-  # Bright colors
-  bright:
-    black:   '0x747369'
-    red:     '0xf2777a'
-    green:   '0x99cc99'
-    yellow:  '0xffcc66'
-    blue:    '0x6699cc'
-    magenta: '0xcc99cc'
-    cyan:    '0x66cccc'
-    white:   '0x6d685f'
 
 colors: *light_colors
